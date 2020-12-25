@@ -18,22 +18,26 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Contacts screen" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LIV-vo-1Hy">
-                                <rect key="frame" x="97" y="230" width="126" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Contacts screen" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LIV-vo-1Hy">
+                                <rect key="frame" x="16" y="230" width="288" height="20"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="LIV-vo-1Hy" firstAttribute="trailing" secondItem="DMc-IA-YTr" secondAttribute="trailingMargin" id="Wfo-UH-a4d"/>
+                            <constraint firstItem="LIV-vo-1Hy" firstAttribute="leading" secondItem="DMc-IA-YTr" secondAttribute="leadingMargin" id="YTB-S6-HJO"/>
+                            <constraint firstItem="LIV-vo-1Hy" firstAttribute="centerY" secondItem="DMc-IA-YTr" secondAttribute="centerY" id="lVH-YK-tha"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="Cz6-Ug-ZN7"/>
                     </view>
                     <tabBarItem key="tabBarItem" systemItem="contacts" id="QoU-uV-Vff"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xFs-7G-crF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="836" y="-179"/>
+            <point key="canvasLocation" x="834.375" y="-180"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="XQe-tF-qAo">
@@ -43,22 +47,26 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Downloads screen" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o6P-kr-5UB">
-                                <rect key="frame" x="90" y="178" width="141" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Downloads screen" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o6P-kr-5UB">
+                                <rect key="frame" x="16" y="230" width="288" height="20"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="o6P-kr-5UB" firstAttribute="centerY" secondItem="68s-Gr-lXK" secondAttribute="centerY" id="Bh2-Du-fjW"/>
+                            <constraint firstItem="o6P-kr-5UB" firstAttribute="leading" secondItem="68s-Gr-lXK" secondAttribute="leadingMargin" id="ahi-A3-U8J"/>
+                            <constraint firstItem="o6P-kr-5UB" firstAttribute="trailing" secondItem="68s-Gr-lXK" secondAttribute="trailingMargin" id="reg-UR-Woi"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="rQk-uu-TNm"/>
                     </view>
                     <tabBarItem key="tabBarItem" systemItem="downloads" id="7lH-sP-48m"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x2G-LY-WhL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="117" y="-178"/>
+            <point key="canvasLocation" x="116.25" y="-178.75"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="atQ-zW-WHE">
@@ -88,15 +96,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Favorites screen" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UTD-kX-rT2">
-                                <rect key="frame" x="84" y="230" width="153" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Favorites screen" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UTD-kX-rT2">
+                                <rect key="frame" x="16" y="230" width="288" height="20"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="UTD-kX-rT2" firstAttribute="trailing" secondItem="Pif-Wj-kgB" secondAttribute="trailingMargin" id="ETc-jX-FYj"/>
+                            <constraint firstItem="UTD-kX-rT2" firstAttribute="leading" secondItem="Pif-Wj-kgB" secondAttribute="leadingMargin" id="Ei1-U8-cZM"/>
+                            <constraint firstItem="UTD-kX-rT2" firstAttribute="centerY" secondItem="Pif-Wj-kgB" secondAttribute="centerY" id="Wk7-EK-z3y"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="RMZ-7a-tcD"/>
                     </view>
                     <tabBarItem key="tabBarItem" systemItem="favorites" id="3tr-NA-r91"/>
@@ -114,22 +126,26 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Search screen" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8q6-C2-4UN">
-                                <rect key="frame" x="105" y="230" width="110" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Search screen" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8q6-C2-4UN">
+                                <rect key="frame" x="16" y="230" width="288" height="20"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="8q6-C2-4UN" firstAttribute="leading" secondItem="Cmz-S9-CJn" secondAttribute="leadingMargin" id="Bsu-QS-ZrJ"/>
+                            <constraint firstItem="8q6-C2-4UN" firstAttribute="trailing" secondItem="Cmz-S9-CJn" secondAttribute="trailingMargin" id="Mrx-Yb-Ewe"/>
+                            <constraint firstItem="8q6-C2-4UN" firstAttribute="centerY" secondItem="Cmz-S9-CJn" secondAttribute="centerY" id="Wbx-Y2-au2"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="aP9-ws-Zq7"/>
                     </view>
                     <tabBarItem key="tabBarItem" systemItem="search" id="prh-qH-Cky"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="T0i-vp-kWs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="834" y="578"/>
+            <point key="canvasLocation" x="832.5" y="577.5"/>
         </scene>
     </scenes>
 </document>
