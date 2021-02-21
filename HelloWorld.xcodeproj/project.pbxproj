@@ -117,12 +117,12 @@
 		E26641D425E2769C00AC4150 /* Happiness */ = {
 			isa = PBXGroup;
 			children = (
-				E26641D525E2769C00AC4150 /* FaceView.h */,
-				E26641D625E2769C00AC4150 /* HappinessViewController.m */,
 				E26641D725E2769C00AC4150 /* Assets.xcassets */,
-				E26641DA25E2769C00AC4150 /* HappinessAppDelegate.m */,
+				E26641D525E2769C00AC4150 /* FaceView.h */,
 				E26641DC25E2769C00AC4150 /* FaceView.m */,
 				E26641DD25E2769C00AC4150 /* HappinessViewController.h */,
+				E26641D625E2769C00AC4150 /* HappinessViewController.m */,
+				E26641DA25E2769C00AC4150 /* HappinessAppDelegate.m */,
 				E26641DE25E2769C00AC4150 /* HappinessAppDelegate.h */,
 			);
 			path = Happiness;
