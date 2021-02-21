@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E26641E025E2769C00AC4150 /* HappinessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E26641D625E2769C00AC4150 /* HappinessViewController.m */; };
+		E26641E125E2769C00AC4150 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E26641D725E2769C00AC4150 /* Assets.xcassets */; };
+		E26641E325E2769C00AC4150 /* HappinessAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E26641DA25E2769C00AC4150 /* HappinessAppDelegate.m */; };
+		E26641E525E2769C00AC4150 /* FaceView.m in Sources */ = {isa = PBXBuildFile; fileRef = E26641DC25E2769C00AC4150 /* FaceView.m */; };
 		E2BC98D825B5C9A7005B5C48 /* CalculatorAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BC98CE25B5C9A7005B5C48 /* CalculatorAppDelegate.m */; };
 		E2BC98D925B5C9A7005B5C48 /* CalculatorBrain.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BC98D025B5C9A7005B5C48 /* CalculatorBrain.m */; };
 		E2BC98DA25B5C9A7005B5C48 /* CalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BC98D225B5C9A7005B5C48 /* CalculatorViewController.m */; };
@@ -38,6 +42,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E26641D525E2769C00AC4150 /* FaceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceView.h; sourceTree = "<group>"; };
+		E26641D625E2769C00AC4150 /* HappinessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HappinessViewController.m; sourceTree = "<group>"; };
+		E26641D725E2769C00AC4150 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E26641DA25E2769C00AC4150 /* HappinessAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HappinessAppDelegate.m; sourceTree = "<group>"; };
+		E26641DC25E2769C00AC4150 /* FaceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceView.m; sourceTree = "<group>"; };
+		E26641DD25E2769C00AC4150 /* HappinessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HappinessViewController.h; sourceTree = "<group>"; };
+		E26641DE25E2769C00AC4150 /* HappinessAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HappinessAppDelegate.h; sourceTree = "<group>"; };
 		E2BC98CD25B5C9A7005B5C48 /* CalculatorAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatorAppDelegate.h; sourceTree = "<group>"; };
 		E2BC98CE25B5C9A7005B5C48 /* CalculatorAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorAppDelegate.m; sourceTree = "<group>"; };
 		E2BC98CF25B5C9A7005B5C48 /* CalculatorBrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatorBrain.h; sourceTree = "<group>"; };
@@ -103,6 +114,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E26641D425E2769C00AC4150 /* Happiness */ = {
+			isa = PBXGroup;
+			children = (
+				E26641D525E2769C00AC4150 /* FaceView.h */,
+				E26641D625E2769C00AC4150 /* HappinessViewController.m */,
+				E26641D725E2769C00AC4150 /* Assets.xcassets */,
+				E26641DA25E2769C00AC4150 /* HappinessAppDelegate.m */,
+				E26641DC25E2769C00AC4150 /* FaceView.m */,
+				E26641DD25E2769C00AC4150 /* HappinessViewController.h */,
+				E26641DE25E2769C00AC4150 /* HappinessAppDelegate.h */,
+			);
+			path = Happiness;
+			sourceTree = "<group>";
+		};
 		E2BC98C725B5C9A7005B5C48 /* Calculator */ = {
 			isa = PBXGroup;
 			children = (
@@ -190,6 +215,7 @@
 		E2F174B0259366C50084C581 = {
 			isa = PBXGroup;
 			children = (
+				E26641D425E2769C00AC4150 /* Happiness */,
 				E2BC995125B5F068005B5C48 /* SuperCard */,
 				E2BC993B25B5ED91005B5C48 /* Imaginarium */,
 				E2BC992225B5ECC8005B5C48 /* Dropit */,
@@ -286,6 +312,7 @@
 				E2F174C6259366C80084C581 /* Assets.xcassets in Resources */,
 				E2BC990325B5EA75005B5C48 /* Assets.xcassets in Resources */,
 				E2F174C4259366C50084C581 /* Main.storyboard in Resources */,
+				E26641E125E2769C00AC4150 /* Assets.xcassets in Resources */,
 				E2BC996025B5F068005B5C48 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -311,7 +338,10 @@
 				E2BC98F225B5E59E005B5C48 /* TextStatsViewController.m in Sources */,
 				E2BC996525B5F068005B5C48 /* PlayingCardView.m in Sources */,
 				E2F174BE259366C50084C581 /* AppDelegate.m in Sources */,
+				E26641E025E2769C00AC4150 /* HappinessViewController.m in Sources */,
+				E26641E325E2769C00AC4150 /* HappinessAppDelegate.m in Sources */,
 				E2BC98EC25B5E59E005B5C48 /* AttributorAppDelegate.m in Sources */,
+				E26641E525E2769C00AC4150 /* FaceView.m in Sources */,
 				E2BC98D925B5C9A7005B5C48 /* CalculatorBrain.m in Sources */,
 				E2BC990825B5EA75005B5C48 /* CardGameViewController.m in Sources */,
 				E2BC993725B5ECC8005B5C48 /* DropitBehavior.m in Sources */,
