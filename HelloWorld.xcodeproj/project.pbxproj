@@ -8,13 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		E26641E025E2769C00AC4150 /* HappinessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E26641D625E2769C00AC4150 /* HappinessViewController.m */; };
-		E26641E125E2769C00AC4150 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E26641D725E2769C00AC4150 /* Assets.xcassets */; };
 		E26641E325E2769C00AC4150 /* HappinessAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E26641DA25E2769C00AC4150 /* HappinessAppDelegate.m */; };
 		E26641E525E2769C00AC4150 /* FaceView.m in Sources */ = {isa = PBXBuildFile; fileRef = E26641DC25E2769C00AC4150 /* FaceView.m */; };
 		E266425225E2F1DF00AC4150 /* AskerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E266424825E2F1DF00AC4150 /* AskerViewController.m */; };
 		E266425325E2F1DF00AC4150 /* LabelMoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E266424925E2F1DF00AC4150 /* LabelMoverViewController.m */; };
 		E266425425E2F1DF00AC4150 /* AskerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E266424B25E2F1DF00AC4150 /* AskerViewController.xib */; };
-		E266425525E2F1DF00AC4150 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E266424C25E2F1DF00AC4150 /* Assets.xcassets */; };
 		E266425725E2F1DF00AC4150 /* LabelMoverAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E266425025E2F1DF00AC4150 /* LabelMoverAppDelegate.m */; };
 		E2BC98D825B5C9A7005B5C48 /* CalculatorAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BC98CE25B5C9A7005B5C48 /* CalculatorAppDelegate.m */; };
 		E2BC98D925B5C9A7005B5C48 /* CalculatorBrain.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BC98D025B5C9A7005B5C48 /* CalculatorBrain.m */; };
@@ -41,7 +39,6 @@
 		E2F174BE259366C50084C581 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F174BD259366C50084C581 /* AppDelegate.m */; };
 		E2F174C1259366C50084C581 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F174C0259366C50084C581 /* ViewController.m */; };
 		E2F174C4259366C50084C581 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2F174C2259366C50084C581 /* Main.storyboard */; };
-		E2F174C6259366C80084C581 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2F174C5259366C80084C581 /* Assets.xcassets */; };
 		E2F174C9259366C80084C581 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2F174C7259366C80084C581 /* LaunchScreen.storyboard */; };
 		E2F174CC259366C80084C581 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F174CB259366C80084C581 /* main.m */; };
 /* End PBXBuildFile section */
@@ -49,7 +46,6 @@
 /* Begin PBXFileReference section */
 		E26641D525E2769C00AC4150 /* FaceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceView.h; sourceTree = "<group>"; };
 		E26641D625E2769C00AC4150 /* HappinessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HappinessViewController.m; sourceTree = "<group>"; };
-		E26641D725E2769C00AC4150 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E26641DA25E2769C00AC4150 /* HappinessAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HappinessAppDelegate.m; sourceTree = "<group>"; };
 		E26641DC25E2769C00AC4150 /* FaceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceView.m; sourceTree = "<group>"; };
 		E26641DD25E2769C00AC4150 /* HappinessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HappinessViewController.h; sourceTree = "<group>"; };
@@ -58,7 +54,6 @@
 		E266424925E2F1DF00AC4150 /* LabelMoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabelMoverViewController.m; sourceTree = "<group>"; };
 		E266424A25E2F1DF00AC4150 /* LabelMoverAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelMoverAppDelegate.h; sourceTree = "<group>"; };
 		E266424B25E2F1DF00AC4150 /* AskerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AskerViewController.xib; sourceTree = "<group>"; };
-		E266424C25E2F1DF00AC4150 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E266424F25E2F1DF00AC4150 /* AskerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AskerViewController.h; sourceTree = "<group>"; };
 		E266425025E2F1DF00AC4150 /* LabelMoverAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabelMoverAppDelegate.m; sourceTree = "<group>"; };
 		E266425125E2F1DF00AC4150 /* LabelMoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelMoverViewController.h; sourceTree = "<group>"; };
@@ -110,7 +105,6 @@
 		E2F174BF259366C50084C581 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		E2F174C0259366C50084C581 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E2F174C3259366C50084C581 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E2F174C5259366C80084C581 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2F174C8259366C80084C581 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E2F174CA259366C80084C581 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E2F174CB259366C80084C581 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -130,7 +124,6 @@
 		E26641D425E2769C00AC4150 /* Happiness */ = {
 			isa = PBXGroup;
 			children = (
-				E26641D725E2769C00AC4150 /* Assets.xcassets */,
 				E26641D525E2769C00AC4150 /* FaceView.h */,
 				E26641DC25E2769C00AC4150 /* FaceView.m */,
 				E26641DD25E2769C00AC4150 /* HappinessViewController.h */,
@@ -148,7 +141,6 @@
 				E266424925E2F1DF00AC4150 /* LabelMoverViewController.m */,
 				E266424A25E2F1DF00AC4150 /* LabelMoverAppDelegate.h */,
 				E266424B25E2F1DF00AC4150 /* AskerViewController.xib */,
-				E266424C25E2F1DF00AC4150 /* Assets.xcassets */,
 				E266424F25E2F1DF00AC4150 /* AskerViewController.h */,
 				E266425025E2F1DF00AC4150 /* LabelMoverAppDelegate.m */,
 				E266425125E2F1DF00AC4150 /* LabelMoverViewController.h */,
@@ -272,7 +264,6 @@
 				E2F174BF259366C50084C581 /* ViewController.h */,
 				E2F174C0259366C50084C581 /* ViewController.m */,
 				E2F174C2259366C50084C581 /* Main.storyboard */,
-				E2F174C5259366C80084C581 /* Assets.xcassets */,
 				E2F174C7259366C80084C581 /* LaunchScreen.storyboard */,
 				E2F174CA259366C80084C581 /* Info.plist */,
 				E2F174CB259366C80084C581 /* main.m */,
@@ -338,12 +329,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2F174C9259366C80084C581 /* LaunchScreen.storyboard in Resources */,
-				E2F174C6259366C80084C581 /* Assets.xcassets in Resources */,
 				E266425425E2F1DF00AC4150 /* AskerViewController.xib in Resources */,
 				E2BC990325B5EA75005B5C48 /* Assets.xcassets in Resources */,
 				E2F174C4259366C50084C581 /* Main.storyboard in Resources */,
-				E26641E125E2769C00AC4150 /* Assets.xcassets in Resources */,
-				E266425525E2F1DF00AC4150 /* Assets.xcassets in Resources */,
 				E2BC996025B5F068005B5C48 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
