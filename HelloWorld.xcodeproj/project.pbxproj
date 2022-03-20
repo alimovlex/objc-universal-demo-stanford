@@ -7,32 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7891752D27E6E2E900CEB8C6 /* DropitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7891752C27E6E2E900CEB8C6 /* DropitViewController.m */; };
 		E26641E025E2769C00AC4150 /* HappinessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E26641D625E2769C00AC4150 /* HappinessViewController.m */; };
-		E26641E325E2769C00AC4150 /* HappinessAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E26641DA25E2769C00AC4150 /* HappinessAppDelegate.m */; };
 		E26641E525E2769C00AC4150 /* FaceView.m in Sources */ = {isa = PBXBuildFile; fileRef = E26641DC25E2769C00AC4150 /* FaceView.m */; };
 		E266425225E2F1DF00AC4150 /* AskerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E266424825E2F1DF00AC4150 /* AskerViewController.m */; };
 		E266425325E2F1DF00AC4150 /* LabelMoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E266424925E2F1DF00AC4150 /* LabelMoverViewController.m */; };
 		E266425425E2F1DF00AC4150 /* AskerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E266424B25E2F1DF00AC4150 /* AskerViewController.xib */; };
-		E266425725E2F1DF00AC4150 /* LabelMoverAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E266425025E2F1DF00AC4150 /* LabelMoverAppDelegate.m */; };
-		E2BC98D825B5C9A7005B5C48 /* CalculatorAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BC98CE25B5C9A7005B5C48 /* CalculatorAppDelegate.m */; };
 		E2BC98D925B5C9A7005B5C48 /* CalculatorBrain.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BC98D025B5C9A7005B5C48 /* CalculatorBrain.m */; };
 		E2BC98DA25B5C9A7005B5C48 /* CalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BC98D225B5C9A7005B5C48 /* CalculatorViewController.m */; };
-		E2BC98EC25B5E59E005B5C48 /* AttributorAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BC98E025B5E59E005B5C48 /* AttributorAppDelegate.m */; };
 		E2BC98ED25B5E59E005B5C48 /* AttributorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BC98E225B5E59E005B5C48 /* AttributorViewController.m */; };
 		E2BC98F225B5E59E005B5C48 /* TextStatsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BC98EA25B5E59E005B5C48 /* TextStatsViewController.m */; };
 		E2BC990325B5EA75005B5C48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2BC98F425B5EA74005B5C48 /* Assets.xcassets */; };
 		E2BC990625B5EA75005B5C48 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BC98FA25B5EA74005B5C48 /* Card.m */; };
-		E2BC990725B5EA75005B5C48 /* CardGameAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BC98FC25B5EA74005B5C48 /* CardGameAppDelegate.m */; };
 		E2BC990825B5EA75005B5C48 /* CardGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BC98FE25B5EA74005B5C48 /* CardGameViewController.m */; };
 		E2BC990925B5EA75005B5C48 /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BC990025B5EA74005B5C48 /* Deck.m */; };
 		E2BC993525B5ECC8005B5C48 /* BezierPathView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BC992925B5ECC8005B5C48 /* BezierPathView.m */; };
-		E2BC993625B5ECC8005B5C48 /* DropitAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BC992B25B5ECC8005B5C48 /* DropitAppDelegate.m */; };
 		E2BC993725B5ECC8005B5C48 /* DropitBehavior.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BC992D25B5ECC8005B5C48 /* DropitBehavior.m */; };
-		E2BC993825B5ECC8005B5C48 /* DropitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BC992F25B5ECC8005B5C48 /* DropitViewController.m */; };
-		E2BC994925B5ED91005B5C48 /* ImaginariumAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BC993D25B5ED91005B5C48 /* ImaginariumAppDelegate.m */; };
 		E2BC994D25B5ED91005B5C48 /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BC994425B5ED91005B5C48 /* ImageViewController.m */; };
 		E2BC995025B5ED91005B5C48 /* ImaginariumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BC994825B5ED91005B5C48 /* ImaginariumViewController.m */; };
-		E2BC995F25B5F068005B5C48 /* SuperCardAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BC995325B5F068005B5C48 /* SuperCardAppDelegate.m */; };
 		E2BC996025B5F068005B5C48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2BC995425B5F068005B5C48 /* Assets.xcassets */; };
 		E2BC996525B5F068005B5C48 /* PlayingCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BC995C25B5F068005B5C48 /* PlayingCardView.m */; };
 		E2BC996625B5F068005B5C48 /* SuperCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BC995E25B5F068005B5C48 /* SuperCardViewController.m */; };
@@ -44,27 +36,21 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7891752A27E6E27D00CEB8C6 /* LabelMoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelMoverViewController.h; sourceTree = "<group>"; };
+		7891752B27E6E2E900CEB8C6 /* DropitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropitViewController.h; sourceTree = "<group>"; };
+		7891752C27E6E2E900CEB8C6 /* DropitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropitViewController.m; sourceTree = "<group>"; };
 		E26641D525E2769C00AC4150 /* FaceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceView.h; sourceTree = "<group>"; };
 		E26641D625E2769C00AC4150 /* HappinessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HappinessViewController.m; sourceTree = "<group>"; };
-		E26641DA25E2769C00AC4150 /* HappinessAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HappinessAppDelegate.m; sourceTree = "<group>"; };
 		E26641DC25E2769C00AC4150 /* FaceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceView.m; sourceTree = "<group>"; };
 		E26641DD25E2769C00AC4150 /* HappinessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HappinessViewController.h; sourceTree = "<group>"; };
-		E26641DE25E2769C00AC4150 /* HappinessAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HappinessAppDelegate.h; sourceTree = "<group>"; };
 		E266424825E2F1DF00AC4150 /* AskerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AskerViewController.m; sourceTree = "<group>"; };
 		E266424925E2F1DF00AC4150 /* LabelMoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabelMoverViewController.m; sourceTree = "<group>"; };
-		E266424A25E2F1DF00AC4150 /* LabelMoverAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelMoverAppDelegate.h; sourceTree = "<group>"; };
 		E266424B25E2F1DF00AC4150 /* AskerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AskerViewController.xib; sourceTree = "<group>"; };
 		E266424F25E2F1DF00AC4150 /* AskerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AskerViewController.h; sourceTree = "<group>"; };
-		E266425025E2F1DF00AC4150 /* LabelMoverAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabelMoverAppDelegate.m; sourceTree = "<group>"; };
-		E266425125E2F1DF00AC4150 /* LabelMoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelMoverViewController.h; sourceTree = "<group>"; };
-		E2BC98CD25B5C9A7005B5C48 /* CalculatorAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatorAppDelegate.h; sourceTree = "<group>"; };
-		E2BC98CE25B5C9A7005B5C48 /* CalculatorAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorAppDelegate.m; sourceTree = "<group>"; };
 		E2BC98CF25B5C9A7005B5C48 /* CalculatorBrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatorBrain.h; sourceTree = "<group>"; };
 		E2BC98D025B5C9A7005B5C48 /* CalculatorBrain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorBrain.m; sourceTree = "<group>"; };
 		E2BC98D125B5C9A7005B5C48 /* CalculatorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatorViewController.h; sourceTree = "<group>"; };
 		E2BC98D225B5C9A7005B5C48 /* CalculatorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorViewController.m; sourceTree = "<group>"; };
-		E2BC98DF25B5E59E005B5C48 /* AttributorAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttributorAppDelegate.h; sourceTree = "<group>"; };
-		E2BC98E025B5E59E005B5C48 /* AttributorAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttributorAppDelegate.m; sourceTree = "<group>"; };
 		E2BC98E125B5E59E005B5C48 /* AttributorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttributorViewController.h; sourceTree = "<group>"; };
 		E2BC98E225B5E59E005B5C48 /* AttributorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttributorViewController.m; sourceTree = "<group>"; };
 		E2BC98E925B5E59E005B5C48 /* TextStatsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextStatsViewController.h; sourceTree = "<group>"; };
@@ -72,28 +58,18 @@
 		E2BC98F425B5EA74005B5C48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2BC98F925B5EA74005B5C48 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
 		E2BC98FA25B5EA74005B5C48 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
-		E2BC98FB25B5EA74005B5C48 /* CardGameAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardGameAppDelegate.h; sourceTree = "<group>"; };
-		E2BC98FC25B5EA74005B5C48 /* CardGameAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardGameAppDelegate.m; sourceTree = "<group>"; };
 		E2BC98FD25B5EA74005B5C48 /* CardGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardGameViewController.h; sourceTree = "<group>"; };
 		E2BC98FE25B5EA74005B5C48 /* CardGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardGameViewController.m; sourceTree = "<group>"; };
 		E2BC98FF25B5EA74005B5C48 /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Deck.h; sourceTree = "<group>"; };
 		E2BC990025B5EA74005B5C48 /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Deck.m; sourceTree = "<group>"; };
 		E2BC992825B5ECC8005B5C48 /* BezierPathView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BezierPathView.h; sourceTree = "<group>"; };
 		E2BC992925B5ECC8005B5C48 /* BezierPathView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BezierPathView.m; sourceTree = "<group>"; };
-		E2BC992A25B5ECC8005B5C48 /* DropitAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropitAppDelegate.h; sourceTree = "<group>"; };
-		E2BC992B25B5ECC8005B5C48 /* DropitAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropitAppDelegate.m; sourceTree = "<group>"; };
 		E2BC992C25B5ECC8005B5C48 /* DropitBehavior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropitBehavior.h; sourceTree = "<group>"; };
 		E2BC992D25B5ECC8005B5C48 /* DropitBehavior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropitBehavior.m; sourceTree = "<group>"; };
-		E2BC992E25B5ECC8005B5C48 /* DropitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropitViewController.h; sourceTree = "<group>"; };
-		E2BC992F25B5ECC8005B5C48 /* DropitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropitViewController.m; sourceTree = "<group>"; };
-		E2BC993C25B5ED91005B5C48 /* ImaginariumAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImaginariumAppDelegate.h; sourceTree = "<group>"; };
-		E2BC993D25B5ED91005B5C48 /* ImaginariumAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImaginariumAppDelegate.m; sourceTree = "<group>"; };
 		E2BC994325B5ED91005B5C48 /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
 		E2BC994425B5ED91005B5C48 /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
 		E2BC994725B5ED91005B5C48 /* ImaginariumViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImaginariumViewController.h; sourceTree = "<group>"; };
 		E2BC994825B5ED91005B5C48 /* ImaginariumViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImaginariumViewController.m; sourceTree = "<group>"; };
-		E2BC995225B5F068005B5C48 /* SuperCardAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperCardAppDelegate.h; sourceTree = "<group>"; };
-		E2BC995325B5F068005B5C48 /* SuperCardAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuperCardAppDelegate.m; sourceTree = "<group>"; };
 		E2BC995425B5F068005B5C48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2BC995B25B5F068005B5C48 /* PlayingCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCardView.h; sourceTree = "<group>"; };
 		E2BC995C25B5F068005B5C48 /* PlayingCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCardView.m; sourceTree = "<group>"; };
@@ -128,8 +104,6 @@
 				E26641DC25E2769C00AC4150 /* FaceView.m */,
 				E26641DD25E2769C00AC4150 /* HappinessViewController.h */,
 				E26641D625E2769C00AC4150 /* HappinessViewController.m */,
-				E26641DA25E2769C00AC4150 /* HappinessAppDelegate.m */,
-				E26641DE25E2769C00AC4150 /* HappinessAppDelegate.h */,
 			);
 			path = Happiness;
 			sourceTree = "<group>";
@@ -139,11 +113,9 @@
 			children = (
 				E266424825E2F1DF00AC4150 /* AskerViewController.m */,
 				E266424925E2F1DF00AC4150 /* LabelMoverViewController.m */,
-				E266424A25E2F1DF00AC4150 /* LabelMoverAppDelegate.h */,
+				7891752A27E6E27D00CEB8C6 /* LabelMoverViewController.h */,
 				E266424B25E2F1DF00AC4150 /* AskerViewController.xib */,
 				E266424F25E2F1DF00AC4150 /* AskerViewController.h */,
-				E266425025E2F1DF00AC4150 /* LabelMoverAppDelegate.m */,
-				E266425125E2F1DF00AC4150 /* LabelMoverViewController.h */,
 			);
 			path = LabelMover;
 			sourceTree = "<group>";
@@ -151,8 +123,6 @@
 		E2BC98C725B5C9A7005B5C48 /* Calculator */ = {
 			isa = PBXGroup;
 			children = (
-				E2BC98CD25B5C9A7005B5C48 /* CalculatorAppDelegate.h */,
-				E2BC98CE25B5C9A7005B5C48 /* CalculatorAppDelegate.m */,
 				E2BC98CF25B5C9A7005B5C48 /* CalculatorBrain.h */,
 				E2BC98D025B5C9A7005B5C48 /* CalculatorBrain.m */,
 				E2BC98D125B5C9A7005B5C48 /* CalculatorViewController.h */,
@@ -164,8 +134,6 @@
 		E2BC98DD25B5E59E005B5C48 /* Attributor */ = {
 			isa = PBXGroup;
 			children = (
-				E2BC98DF25B5E59E005B5C48 /* AttributorAppDelegate.h */,
-				E2BC98E025B5E59E005B5C48 /* AttributorAppDelegate.m */,
 				E2BC98E125B5E59E005B5C48 /* AttributorViewController.h */,
 				E2BC98E225B5E59E005B5C48 /* AttributorViewController.m */,
 				E2BC98E925B5E59E005B5C48 /* TextStatsViewController.h */,
@@ -180,8 +148,6 @@
 				E2BC98F425B5EA74005B5C48 /* Assets.xcassets */,
 				E2BC98F925B5EA74005B5C48 /* Card.h */,
 				E2BC98FA25B5EA74005B5C48 /* Card.m */,
-				E2BC98FB25B5EA74005B5C48 /* CardGameAppDelegate.h */,
-				E2BC98FC25B5EA74005B5C48 /* CardGameAppDelegate.m */,
 				E2BC98FD25B5EA74005B5C48 /* CardGameViewController.h */,
 				E2BC98FE25B5EA74005B5C48 /* CardGameViewController.m */,
 				E2BC98FF25B5EA74005B5C48 /* Deck.h */,
@@ -193,14 +159,12 @@
 		E2BC992225B5ECC8005B5C48 /* Dropit */ = {
 			isa = PBXGroup;
 			children = (
+				7891752B27E6E2E900CEB8C6 /* DropitViewController.h */,
+				7891752C27E6E2E900CEB8C6 /* DropitViewController.m */,
 				E2BC992825B5ECC8005B5C48 /* BezierPathView.h */,
 				E2BC992925B5ECC8005B5C48 /* BezierPathView.m */,
-				E2BC992A25B5ECC8005B5C48 /* DropitAppDelegate.h */,
-				E2BC992B25B5ECC8005B5C48 /* DropitAppDelegate.m */,
 				E2BC992C25B5ECC8005B5C48 /* DropitBehavior.h */,
 				E2BC992D25B5ECC8005B5C48 /* DropitBehavior.m */,
-				E2BC992E25B5ECC8005B5C48 /* DropitViewController.h */,
-				E2BC992F25B5ECC8005B5C48 /* DropitViewController.m */,
 			);
 			path = Dropit;
 			sourceTree = "<group>";
@@ -208,8 +172,6 @@
 		E2BC993B25B5ED91005B5C48 /* Imaginarium */ = {
 			isa = PBXGroup;
 			children = (
-				E2BC993C25B5ED91005B5C48 /* ImaginariumAppDelegate.h */,
-				E2BC993D25B5ED91005B5C48 /* ImaginariumAppDelegate.m */,
 				E2BC994325B5ED91005B5C48 /* ImageViewController.h */,
 				E2BC994425B5ED91005B5C48 /* ImageViewController.m */,
 				E2BC994725B5ED91005B5C48 /* ImaginariumViewController.h */,
@@ -221,8 +183,6 @@
 		E2BC995125B5F068005B5C48 /* SuperCard */ = {
 			isa = PBXGroup;
 			children = (
-				E2BC995225B5F068005B5C48 /* SuperCardAppDelegate.h */,
-				E2BC995325B5F068005B5C48 /* SuperCardAppDelegate.m */,
 				E2BC995425B5F068005B5C48 /* Assets.xcassets */,
 				E2BC995B25B5F068005B5C48 /* PlayingCardView.h */,
 				E2BC995C25B5F068005B5C48 /* PlayingCardView.m */,
@@ -343,16 +303,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E266425725E2F1DF00AC4150 /* LabelMoverAppDelegate.m in Sources */,
 				E2BC995025B5ED91005B5C48 /* ImaginariumViewController.m in Sources */,
 				E2BC990925B5EA75005B5C48 /* Deck.m in Sources */,
-				E2BC98D825B5C9A7005B5C48 /* CalculatorAppDelegate.m in Sources */,
-				E2BC994925B5ED91005B5C48 /* ImaginariumAppDelegate.m in Sources */,
 				E266425225E2F1DF00AC4150 /* AskerViewController.m in Sources */,
 				E2F174C1259366C50084C581 /* ViewController.m in Sources */,
 				E2BC98DA25B5C9A7005B5C48 /* CalculatorViewController.m in Sources */,
 				E2F174CC259366C80084C581 /* main.m in Sources */,
-				E2BC993625B5ECC8005B5C48 /* DropitAppDelegate.m in Sources */,
 				E266425325E2F1DF00AC4150 /* LabelMoverViewController.m in Sources */,
 				E2BC98ED25B5E59E005B5C48 /* AttributorViewController.m in Sources */,
 				E2BC994D25B5ED91005B5C48 /* ImageViewController.m in Sources */,
@@ -361,17 +317,13 @@
 				E2BC996525B5F068005B5C48 /* PlayingCardView.m in Sources */,
 				E2F174BE259366C50084C581 /* AppDelegate.m in Sources */,
 				E26641E025E2769C00AC4150 /* HappinessViewController.m in Sources */,
-				E26641E325E2769C00AC4150 /* HappinessAppDelegate.m in Sources */,
-				E2BC98EC25B5E59E005B5C48 /* AttributorAppDelegate.m in Sources */,
 				E26641E525E2769C00AC4150 /* FaceView.m in Sources */,
 				E2BC98D925B5C9A7005B5C48 /* CalculatorBrain.m in Sources */,
 				E2BC990825B5EA75005B5C48 /* CardGameViewController.m in Sources */,
 				E2BC993725B5ECC8005B5C48 /* DropitBehavior.m in Sources */,
+				7891752D27E6E2E900CEB8C6 /* DropitViewController.m in Sources */,
 				E2BC996625B5F068005B5C48 /* SuperCardViewController.m in Sources */,
 				E2BC993525B5ECC8005B5C48 /* BezierPathView.m in Sources */,
-				E2BC990725B5EA75005B5C48 /* CardGameAppDelegate.m in Sources */,
-				E2BC993825B5ECC8005B5C48 /* DropitViewController.m in Sources */,
-				E2BC995F25B5F068005B5C48 /* SuperCardAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,7 +466,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8T595WJ7W8;
+				DEVELOPMENT_TEAM = 3A9CX99HJE;
 				INFOPLIST_FILE = HelloWorld/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -532,7 +484,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8T595WJ7W8;
+				DEVELOPMENT_TEAM = 3A9CX99HJE;
 				INFOPLIST_FILE = HelloWorld/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = (
